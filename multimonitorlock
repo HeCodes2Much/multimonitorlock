@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-# multilockscreen
+# multimonitorlock
 # i3lock wrapper with multi-monitor support
-# https://github.com/jeffmhubbard/multilockscreen
+# https://github.com/TheCynicalTeam/multimonitorlock
 
 init_config () {
 
@@ -632,7 +632,7 @@ echof() {
 # help message
 usage() {
 	echo
-	echo "Usage: multilockscreen [-u <PATH>] [-l <EFFECT>] [-w <EFFECT>]"
+	echo "Usage: multimonitorlock [-u <PATH>] [-l <EFFECT>] [-w <EFFECT>]"
 	echo
 	echo "  -u --update <PATH>"
 	echo "      Update lock screen image"
@@ -681,7 +681,7 @@ usage() {
 	exit 1
 }
 
-echof header "multilockscreen"
+echof header "multimonitorlock"
 
 init_config
 
