@@ -22,7 +22,7 @@ Originally a fork of [multimonitorlock](https://github.com/TheCynicalTeam/multim
 - [imagemagick](https://www.imagemagick.org/) - Image effects  
 - [xrandr](https://www.x.org/) - Display info  
 - [xdpyinfo](https://www.x.org/) - Display info & HiDPI support
-- [feh](https://feh.finalrewind.org/) - Set wallpaper  
+- [multimonitorlock-gui](https://github.com/TheCynicalTeam/multimonitorlock-gui) - Set background  
 
 ### Install
 ##### Manual Installation
