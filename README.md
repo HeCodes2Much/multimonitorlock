@@ -7,7 +7,7 @@
 ### About
 `multimonitorlock` is a wrapper script for `i3lock-color`. It allows you to cache background images for `i3lock-color` with a variety of different effects and adds a stylish indicator.
 
-Originally a fork of [multimonitorlock](https://github.com/TheCynicalTeam/multimonitorlock) with support for multiple monitors, `multimonitorlock` has grown considerably. There are a tons of new and useful features.
+Originally a fork of [betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen) with support for multiple monitors, `multimonitorlock` has grown considerably. There are a tons of new and useful features.
 
 ### Features
 - Support for multiple monitors with almost any layout
