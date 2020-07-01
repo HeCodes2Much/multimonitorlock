@@ -1,6 +1,14 @@
 ﻿# multimonitorlock
 
-[About](#about) [Features](#features) [Requirements](#requirements) [Install](#install) [Usage](#usage)
+<p align="center">
+  <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/TheCynicalTeam/multimonitorlock?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/TheCynicalTeam/multimonitorlock?color=violet&style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/TheCynicalTeam/multimonitorlock?style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/TheCynicalTeam/multimonitorlock?color=teal&style=for-the-badge">
+</p>
+
+[About](#about) [Features](#features) [Requirements](#requirements) [Install](#install) [Usage](#usage) [Examples](#examples) [Configuration](#configuration) [Issues](#issues) [Contributing](#contributing) [Tips](#tips) [License](#license)
 
 ![multimonitorlock](https://camo.githubusercontent.com/bd90f582f8fea8467dc59b8b9c5f154aa1dff00f/68747470733a2f2f692e696d6775722e636f6d2f4a5a6139644c432e706e67)
 
