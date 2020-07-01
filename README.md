@@ -156,7 +156,7 @@ New to Pull Requests? I suggest this [Pull Request Etiquette](https://gist.githu
 Do not use systemd service. `xss-lock` is recommended instead  
 ```bash
 # .xinitrc
-xss-lock -l -- multimonitorlock --lock blur &
+xautolock -time 10 -locker 'multimonitorlock -l -- --timestr="%H:%M"' &
 ```
 
 ### License
