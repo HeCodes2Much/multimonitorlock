@@ -153,7 +153,7 @@ Please try stick with the format of the files (tabs, spacing, etc.). Don't make 
 New to Pull Requests? I suggest this [Pull Request Etiquette](https://gist.github.com/mikepea/863f63d6e37281e329f8) gist.
 
 ### Tips
-Do not use systemd service. `xss-lock` is recommended instead  
+Do not use systemd service. `xautolock` is recommended instead  
 ```bash
 # .xinitrc
 xautolock -time 10 -locker 'multimonitorlock -l -- --timestr="%H:%M"' &
