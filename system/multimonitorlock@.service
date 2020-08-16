@@ -11,3 +11,4 @@ TimeoutSec=infinity
 [Install]
 WantedBy=sleep.target
 WantedBy=suspend.target
+WantedBy=hibernate.target
