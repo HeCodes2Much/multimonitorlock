@@ -45,7 +45,7 @@ postlock() {
 
 	# show time away
 	away_end="$(date -u +%s)"
-	if [[ ! "$away_start" -ne "$away_end" ]]; then
+	if [[ ! "$away_start" -gt "$away_end" ]]; then
 		notify-send "Welcome Back" "You were gone for $(($away_end-$away_start)) seconds!"
 	fi
 
