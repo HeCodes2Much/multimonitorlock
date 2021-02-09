@@ -2,10 +2,10 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
-  <img src="https://img.shields.io/github/license/TheCynicalTeam/multimonitorlock?style=for-the-badge">
-  <img src="https://img.shields.io/github/issues/TheCynicalTeam/multimonitorlock?color=violet&style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/TheCynicalTeam/multimonitorlock?style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/TheCynicalTeam/multimonitorlock?color=teal&style=for-the-badge">
+  <img src="https://img.shields.io/github/license/The-Repo-Club/multimonitorlock?style=for-the-badge">
+  <img src="https://img.shields.io/github/issues/The-Repo-Club/multimonitorlock?color=violet&style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/The-Repo-Club/multimonitorlock?style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/The-Repo-Club/multimonitorlock?color=teal&style=for-the-badge">
 </p>
 
 [About](#about) [Features](#features) [Requirements](#requirements) [Install](#install) [Usage](#usage) [Examples](#examples) [Configuration](#configuration) [Issues](#issues) [Contributing](#contributing) [Tips](#tips) [License](#license)
@@ -30,12 +30,12 @@ Originally a fork of [betterlockscreen](https://github.com/pavanjadhaw/betterloc
 - [imagemagick](https://www.imagemagick.org/) - Image effects  
 - [xrandr](https://www.x.org/) - Display info  
 - [xdpyinfo](https://www.x.org/) - Display info & HiDPI support
-- [multimonitorlock-gui](https://github.com/TheCynicalTeam/multimonitorlock-gui) - Set background  
+- [multimonitorlock-gui](https://github.com/The-Repo-Club/multimonitorlock-gui) - Set background  
 
 ### Install
 ##### Manual Installation
 ```bash
-git clone https://github.com/TheCynicalTeam/multimonitorlock
+git clone https://github.com/The-Repo-Club/multimonitorlock
 cd multimonitorlock
 sudo install -Dm 755 multimonitorlock /usr/local/bin/multimonitorlock
 ```
@@ -168,4 +168,4 @@ xautolock -time 10 -locker 'multimonitorlock -l -- --timestr="%H:%M"' &
 ```
 
 ### License
-multimonitorlock is under [GPL](https://github.com/TheCynicalTeam/multimonitorlock/blob/multi-monitor/LICENSE) license
+multimonitorlock is under [GPL](https://github.com/The-Repo-Club/multimonitorlock/blob/multi-monitor/LICENSE) license

@@ -2,7 +2,7 @@
 
 # multimonitorlock
 # i3lock wrapper with multi-monitor support
-# https://github.com/TheCynicalTeam/multimonitorlock
+# https://github.com/The-Repo-Club/multimonitorlock
 
 init_config () {
 
