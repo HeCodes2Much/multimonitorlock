@@ -639,6 +639,11 @@ usage() {
 	echo
 	echo "  -l --lock <EFFECT>"
 	echo "      Lock screen with cached image"
+  echo "      (Could be use alongside --suspend to show lock screen after waking up from suspend)"
+  echo
+  echo "  -s --suspend"
+  echo "      Suspend the system"
+  echo "      (Could be use alongside --lock to show lock screen after waking up from suspend)"
 	echo
 	echo "  -w --wall <EFFECT>"
 	echo "      Set wallpaper with cached image"
@@ -708,7 +713,10 @@ for arg in "$@"; do
 
 		-s | --suspend)
 			runsuspend=true
-			;&
+      # remove the non-fork arguments if the user also wants to lock
+      [[ $runlock ]] && lockargs=("${lockargs[@]/-n}")
+      shift 1
+      ;;
 
 		-w | --wall)
 			wallpaper "$2"
@@ -779,6 +787,8 @@ done
 
 # Run image generation
 [[ $runupdate ]] && update "${imagepaths[@]}"
+
+[[ $runsuspend ]] && [[ ! $runlock ]] && systemctl suspend
 
 # Activate lockscreen
 [[ $runlock ]] && lockselect "$lockstyle" && \
