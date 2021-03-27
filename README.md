@@ -56,6 +56,11 @@ Usage: multimonitorlock [-u <PATH>] [-l <EFFECT>] [-w <EFFECT>]
 
   -l --lock <EFFECT>
       Lock screen with cached image
+      (Could be use alongside --suspend to show lock screen after waking up from suspend)
+
+  -s --suspend
+      Suspend the system
+      (Could be use alongside --lock to show lock screen after waking up from suspend)     
 
   -w --wall <EFFECT>
       Set wallpaper with cached image
